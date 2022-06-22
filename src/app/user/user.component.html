@@ -1,0 +1,11 @@
+<div class="child">
+    <h2>Child Component</h2>
+    <p>
+        Today's employee:
+        <strong> {{name}}</strong></p>
+    
+        <label for="input">Add employee name: </label>
+        <input type="text" id="input" #newEmployee>
+        <button (click)="addnewEmployee(newEmployee.value); newEmployee.value =' '">ADD</button>
+    
+</div>
